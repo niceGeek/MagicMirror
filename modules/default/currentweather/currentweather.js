@@ -13,7 +13,7 @@ Module.register("currentweather",{
 	defaults: {
 		location: false,
 		locationID: false,
-		appid: "",
+		appid: "44f3a416250f1d62d85f65b6d44d09e5",
 		units: config.units,
 		updateInterval: 10 * 60 * 1000, // every 10 minutes
 		animationSpeed: 1000,
@@ -37,7 +37,7 @@ Module.register("currentweather",{
 		retryDelay: 2500,
 
 		apiVersion: "2.5",
-		apiBase: "http://api.openweathermap.org/data/2.5/weather?q=Nuremberg,de&APPID=44f3a416250f1d62d85f65b6d44d09e5",
+		apiBase: "https://api.openweathermap.org/data/",
 		weatherEndpoint: "weather",
 
 		appendLocationNameToHeader: true,
