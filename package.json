@@ -51,7 +51,7 @@
     "mocha": "^8.0.1",
     "mocha-each": "^1.1.0",
     "mocha-logger": "^1.0.6",
-    "spectron": "^8.0.0",
+    "spectron": "^19.0.0",
     "stylelint": "latest",
     "stylelint-config-standard": "latest",
     "time-grunt": "latest"
